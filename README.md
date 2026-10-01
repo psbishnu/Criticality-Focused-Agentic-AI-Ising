@@ -81,7 +81,9 @@ Comparison outputs are saved under:
 Results/Comparative_PRE/
 ```
 
-The comparison includes uniform-grid sampling, random sampling, adaptive peak refinement, BO-GP-UCB, BO-GP-EI, active GP-uncertainty sampling, and the proposed physics-guided Agentic AI method.
+The comparison evaluates the accuracy and sampling efficiency of the proposed PAA against existing temperature-selection techniques.
+It examines their ability to reproduce the full-grid finite-size pseudocritical temperature using limited temperature queries.
+The analysis highlights the accuracy–efficiency trade-off, query reduction, and computational performance of each method.
 
 ## Running the ablation study
 
